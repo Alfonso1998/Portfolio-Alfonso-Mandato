@@ -75,8 +75,32 @@ div.desc-second p i {
         height: 1px;
         background-color: white;
         margin: 2px;
+        transition: all ease-in-out 0.4s;
+           
     
     }
+
+    div.open #span2
+    {
+           background-color: transparent;
+           transform: translate(10px);
+           transition: 0.3s;
+           
+    
+            
+        }
+        div.open #span1{
+            transform: rotate(45deg) translate(2px, 5px);
+            transition: 0.3s;
+         
+            
+        }
+        div.open #span3{
+            transform: rotate(-45deg) translate(2px, -5px);
+            transition: 0.3s;
+            
+         
+        }
     div.header{
     display: flex;
     justify-content: space-between;
@@ -174,8 +198,6 @@ div.desc-second p i {
         margin: 0 36px;
     }
 }
-
-
 
 @media screen and (max-width:680px){
 
